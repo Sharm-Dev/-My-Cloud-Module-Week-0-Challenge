@@ -35,6 +35,13 @@ The steps I took to complete this challenge
 5. Then entered the contents from - https://fly.io/docs/app-guides/continuous-deployment-with-github-actions/ from step 8 
 6. Then pushed and prayed for the magic to happen!!!!!!!
 
+### Had some trouble with my app
+
+### In fly.io on the hostname when clicked had a HTTP ERROR 403 page
+
+1. In my app I decided to make my fly.io again so I ran and went through a new stepup, over writing my app and fly.io file
+- flyctl launch
+
 
 
 
