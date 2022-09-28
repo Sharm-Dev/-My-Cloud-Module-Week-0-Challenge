@@ -1,0 +1,7 @@
+app = "billowing-frog-2273"
+
+[build]
+  builder = "paketobuildpacks/builder:base"
+
+[env]
+  PORT = "8080"

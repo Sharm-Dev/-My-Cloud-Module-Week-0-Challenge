@@ -15,5 +15,27 @@ The steps I took to complete this challenge
 6. Then ran the application 
 - flask --app server run 
 
+### Deploying to Git hub then to fly.io with continuous commits 
+
+1. In terminal git my API token key
+- flyctl auth token 
+2. Then in git hub in my repo
+- Settings 
+- Secrets 
+- Actions 
+- New reposirory secert 
+- Name - FLY_API_TOKEN
+- Secert - The token from my terminal 
+- Clicked add secert 
+3. Then created a fly.toml file in my terminal 
+- flycrl apps create
+- Choose a name - left if blank for a random one, and hoped for a good name!!!!
+- and it wasnt good, Oh well...
+4. Then created a github folder, workflows folder and main.yml file
+5. Then entered the contents from - https://fly.io/docs/app-guides/continuous-deployment-with-github-actions/ from step 8 
+6. Then pushed and prayed for the magic to happen!!!!!!!
+
+
+
 
 
