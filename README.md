@@ -30,12 +30,5 @@ Requirements:
 * Help each other and work in groups.
 * You will be asked to present and illustrate what you've done to get it working and how you succeeded/failed.
 
-### My Notes on the challenges
 
- I made the fly.io account and forked the repo 
- I created a fly.io secret and linked that to my forked repo 
- I cloned the repo to my machine
- Signed into fly.io on the command line 
- Ran flyctl, and named my application and choose my region
- Then I deployed it 
 
