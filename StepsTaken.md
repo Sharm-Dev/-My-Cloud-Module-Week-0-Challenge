@@ -39,8 +39,14 @@ The steps I took to complete this challenge
 
 ### In fly.io on the hostname when clicked had a HTTP ERROR 403 page
 
-1. In my app I decided to make my fly.io again so I ran and went through a new stepup, over writing my app and fly.io file
+1. In my app I decided to make my fly.toml again so I ran and went through a new stepup, over writing my app and fly.io file
 - flyctl launch
+
+This worked above, now the link in fly.io is updated on ever commit to github
+
+...Also I got a nicer app name its called patient breeze 
+
+........ very ironic and I have been patient but it was not a breeze but loved the challenge   
 
 
 
