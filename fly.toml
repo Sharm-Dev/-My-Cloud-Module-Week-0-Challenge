@@ -1,0 +1,9 @@
+# fly.toml file generated for holy-glitter-1191 on 2022-09-26T22:20:37+01:00
+
+app = "holy-glitter-1191"
+
+[build]
+  builder = "paketobuildpacks/builder:base"
+
+[env]
+  PORT = "8080"
